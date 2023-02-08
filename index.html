@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <h1>DFA Learn HTML/CSS</h1>
+        <form>
+            <input type="email" placeholder="Enter email...">
+            <input type="password" placeholder="Enter password...">
+            <button type="submit">Login</button>
+        </form>
+    </header>
+
+    <main>
+        <div class="left-side">
+            <h3>Facebook helps you to connect and share with the people in your life.</h3>
+            <img src="./images/peopleNetwork.png" alt="People Network">
+        </div>
+
+        <div class="right-side">
+        <h2>Create an account</h2>
+        <p>It's free and always will be</p>
+        <form action=".forms.html" method="post">
+            <div class="name-field">
+                <input type="text" name="firstName" placeholder="First Name">
+                <input type="text" name="lastName" placeholder="Last Name">
+            </div>
+            <input class="full-width" type="email" name="username" placeholder="Mobile number or Email">
+            <input class="full-width"type="password" name="password" placeholder="New Password">
+            <p id="birthday">Birthday</p>
+            <select name="day">
+                <option selected>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+            <select name="month">
+                <option selected>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+            </select>
+            <select name="year">
+                <option selected>2004</option>
+                <option>2003</option>
+                <option >2002</option>
+                <option >2001</option>
+            </select>
+            <div class="gender">
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="Male">Male</label>
+            </div>
+
+            <p>
+                By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy.
+                You may receive SMS notifications from us and can opt out at any time.
+            </p>
+            <button class='submit' type="submit">Sign Up</button>
+        </form>
+        </div>
+    </main>
+  </body>
+</html>
+
+
